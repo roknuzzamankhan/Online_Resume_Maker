@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+/* font-family: 'Iceland', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,900;1,300&display=swap");
+/* font-family: 'Raleway', sans-serif; */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(14, 14, 14);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid #000; */
+}
+/* common class: Start */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-color-white {
+  color: #fff;
+}
+
+.text-color-lite {
+  color: #cfc1bb;
+}
+
+.text-color-mid {
+  color: #b2aeb1;
+}
+
+.text-color-dark {
+  color: #908884;
+}
+
+.text-color-pink {
+  color: #a8415d;
+}
+.color-purple {
+  background-color: #4e4da0;
+}
+
+.color-pink {
+  background-color: #ad4461;
+}
+
+.color-violate {
+  background-color: #74469c;
+}
+
+.color-ash {
+  background-color: #908884;
+}
+
+.bg-color-lite {
+  background-color: #30333cee;
+}
+
+.bg-color-dark {
+  background-color: #0e111483;
+}
+
+.bg-color-primary {
+  background-color: #24272e;
+}
+
+.round-icon {
+  width: 37px;
+  height: 37px;
+  border: none;
+  border-radius: 50%;
+}
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+.font-opensans {
+  font-family: "Open Sans", sans-serif;
+}
+.font-iceland {
+  font-family: "Iceland", cursive;
+}
+.container {
+  background-color: #24272eec;
+  background-image: url("../images/Texture.png");
+  background-size: cover;
+  width: 700px;
+  height: 979px;
+  margin: 0px auto;
+  padding: 19px 15px;
+}
+.font-size-left {
+  font-size: 20px;
+}
+.d-in {
+  display: inline-block;
+}
+.button-ash {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+.under-line {
+  width: 175px;
+  height: 1px;
+  background-color: #3b3c42;
+  margin: 7px 0px 0px 0px;
+  transform: translate(-13px, 0px);
+}
+/* common class: End*/
+
+/* profile-photo-section: start  */
+.left {
+  float: left;
+  width: 199px;
+  margin: 0px 0px 0px 5px;
+}
+.profile-photo {
+  width: 100%;
+}
+.photo {
+  position: relative;
+}
+.profile-border {
+  width: 194px;
+  margin: 20px 10px 0px 9px;
+  transform: translateX(-12px);
+  -webkit-transform: translateX(-12px);
+  -moz-transform: translateX(-12px);
+  -ms-transform: translateX(-12px);
+  -o-transform: translateX(-12px);
+}
+.pic {
+  width: 133px;
+  height: 133px;
+  border-radius: 50%;
+  transform: translate(21px, -180px);
+  position: absolute;
+  border: none;
+  background-color: #2c2f36;
+  background-image: url('../images/Texture.png');
+  background-size: cover;
+  background-position: center;
+  -webkit-transform: translate(21px, -180px);
+  -moz-transform: translate(21px, -180px);
+  -ms-transform: translate(21px, -180px);
+  -o-transform: translate(21px, -180px);
+}
+.name {
+  margin: 10px 31px;
+}
+.name p {
+  font-weight: 800;
+  font-size: 25px;
+}
+.name .nickname {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 25px;
+  margin: 0px 6px;
+}
+.name .job {
+  font-size: 12.5px;
+  font-weight: lighter;
+  margin: 12px 0px 0px 19px;
+}
+
+/* profile-photo-section: end  */
+
+/* profile-section: start  */
+.profile {
+  width: 100%;
+  margin: 28px 0px 0px 0px;
+}
+.round-icon {
+  margin: 8px 0px 0px 8px;
+  display: inline-block;
+}
+.round-icon img {
+  width: 18px;
+  height: 17px;
+  margin: 9px 0px 0px 10px;
+}
+.pro {
+  display: inline-block;
+}
+.pro p {
+  font-size: 22.5px;
+  margin: 0px 0px 0px 7px;
+  transform: translate(0px, 1px);
+  -webkit-transform: translate(0px, 1px);
+  -moz-transform: translate(0px, 1px);
+  -ms-transform: translate(0px, 1px);
+  -o-transform: translate(0px, 1px);
+}
+.pro-text {
+  width: 175px;
+  margin: 17px 10px 0px 7px;
+}
+.pro-text p {
+  font-size: 9px;
+  text-align: justify;
+  line-height: 15px;
+  max-height: fit-content;
+}
+/* profile-section: end  */
+
+/* contact-section: start  */
+.contact {
+  margin: 45px 0px 0px 0px;
+}
+.second .round-icon {
+  margin: 0px 0px 0px 8px;
+}
+.second .round-icon img {
+  width: 19px;
+  height: 20px;
+  margin: 9px 0px 0px 9px;
+}
+.second .pro {
+  transform: translate(-1px, -3px);
+  -webkit-transform: translate(-1px, -3px);
+  -moz-transform: translate(-1px, -3px);
+  -ms-transform: translate(-1px, -3px);
+  -o-transform: translate(-1px, -3px);
+}
+.second .pro p {
+  font-size: 22.8px;
+  margin: 0px 0px 0px 8px;
+}
+.contact-items {
+  margin: 29px 0px 0px 20px;
+}
+.item p {
+  font-size: 12px;
+  margin: 0px 0px 0px 13px;
+  transform: translate(0px, -3px);
+  -webkit-transform: translate(0px, -3px);
+  -moz-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+}
+.item2 {
+  margin: 9px 0px 0px 0px;
+}
+.item3 {
+  margin: 8px 0px 0px 0px;
+}
+/* contact-section: end  */
+
+/* social-section: start */
+.third {
+  margin: 26px 0px 0px 0px;
+}
+.third .round-icon {
+  margin: 13px 0px 0px 8px;
+}
+.third .round-icon img {
+  width: 23px;
+  margin: 10px 0px 0px 7px;
+}
+.third .pro p {
+  transform: translate(0px, -1px);
+  -webkit-transform: translate(0px, -1px);
+  -moz-transform: translate(0px, -1px);
+  -ms-transform: translate(0px, -1px);
+  -o-transform: translate(0px, -1px);
+}
+.item4 {
+  margin: 11px 0px 0px 0px;
+}
+/* social-section: end */
+
+/* right-section: start  */
+.right {
+  float: left;
+  width: 459px;
+  height: 940px;
+  border-radius: 2px;
+}
+/* work-experience-section: start  */
+.border {
+  width: 427px;
+  height: 300px;
+  border-radius: 2px;
+  margin: 18px 0px 19px 17px;
+}
+.work-experience {
+  background-image: url('../images/Texture.png');
+  background-size: cover;
+  background-position: center;
+  height: 416px;
+}
+.work-experience .round-icon {
+  margin: 19px 0px 0px 13px;
+}
+.work-experience .round-icon img {
+  width: 19px;
+  height: 19px;
+  margin: 9px 0px 0px 9px;
+}
+.work-experience p {
+  font-size: 22.5px;
+  margin: 0px 0px 0px 8px;
+  transform: translate(0px, -3px);
+  -webkit-transform: translate(0px, -3px);
+  -moz-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+}
+.dots {
+  display: inline-block;
+  margin: 0px 0px 0px 170px;
+}
+.dot {
+  width: 3px;
+  height: 3px;
+  background-color: #b2aeb1;
+  border-radius: 50%;
+  margin: 0px 0px 2.5px 0px;
+}
+.ex-section {
+  margin: 26px 0px 0px 25px;
+}
+
+.ex-sec-items .cir {
+  margin: 20px 20px 0px 5px;
+}
+.ex-text {
+  float: left;
+  width: 351px;
+}
+.ex-text p {
+  font-size: 14.5px;
+  font-weight: 800;
+  margin: 0px 0px 0px 0px;
+}
+.ex-text p span {
+  font-size: 10px;
+  font-weight: 200;
+}
+.ex-text .sub {
+  font-size: 13.5px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #9c3f59;
+  margin: 1px 0px 0px 0px;
+  transform: translate(0px, -4px);
+  -webkit-transform: translate(0px, -4px);
+  -moz-transform: translate(0px, -4px);
+  -ms-transform: translate(0px, -4px);
+  -o-transform: translate(0px, -4px);
+}
+.ex-text .sub-text {
+  font-size: 10px;
+  font-weight: 500;
+  color: #6d6e71;
+  text-align: justify;
+  margin: 7px 0px 0px 0px;
+  line-height: 15px;
+}
+.cir {
+  float: left;
+}
+.circle {
+  width: 12.5px;
+  height: 12.5px;
+  border-radius: 50%;
+  border: 3.8px solid #ea406f;
+  margin: 15px 0px 0px 0px;
+  transform: translate(-2px, 0px);
+  -webkit-transform: translate(-2px, 0px);
+  -moz-transform: translate(-2px, 0px);
+  -ms-transform: translate(-2px, 0px);
+  -o-transform: translate(-2px, 0px);
+}
+.under-line-right {
+  width: 398px;
+  transform: translate(-9px, -1px);
+  margin: 6px 0px 14px 0px;
+  -webkit-transform: translate(-9px, -1px);
+  -moz-transform: translate(-9px, -1px);
+  -ms-transform: translate(-9px, -1px);
+  -o-transform: translate(-9px, -1px);
+}
+/* work-experience-section: end  */
+/* education-section: start */
+.education {
+  background-image: url('../images/Texture.png');
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.education .round-icon {
+  margin: 19px 0px 0px 13px;
+}
+.education .round-icon img {
+  width: 23px;
+  height: 17px;
+  margin: 11px 0px 0px 7px;
+}
+.education p {
+  font-size: 22.5px;
+  margin: 0px 0px 0px 8px;
+  transform: translate(0px, -3px);
+  -webkit-transform: translate(0px, -3px);
+  -moz-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+}
+.education .dots {
+  display: inline-block;
+  margin: 0px 0px 0px 238px;
+}
+.education .dot {
+  width: 3px;
+  height: 3px;
+  background-color: #b2aeb1;
+  border-radius: 50%;
+  margin: 0px 0px 2.5px 0px;
+}
+.ex-section {
+  margin: 26px 0px 0px 25px;
+}
+
+.ex-text {
+  float: left;
+  width: 351px;
+}
+.ex-text p {
+  font-size: 14.5px;
+  font-weight: 800;
+  margin: 0px 0px 0px 0px;
+}
+.ex-text p span {
+  font-size: 10px;
+  font-weight: 200;
+}
+.bar {
+  float: left;
+}
+.bars {
+  width: 3.5px;
+  height: 27px;
+  background-color: #ea406f;
+  margin: 0px 26px 0px 7px;
+  transform: translate(-2px, 0px);
+  -webkit-transform: translate(-2px, 0px);
+  -moz-transform: translate(-2px, 0px);
+  -ms-transform: translate(-2px, 0px);
+  -o-transform: translate(-2px, 0px);
+}
+.edu-un {
+  width: 386px;
+  transform: translate(4px, 0px);
+  margin: 0px 0px 15px 0px;
+  -webkit-transform: translate(4px, 0px);
+  -moz-transform: translate(4px, 0px);
+  -ms-transform: translate(4px, 0px);
+  -o-transform: translate(4px, 0px);
+}
+.bar-blue {
+  background-color: #4e4da0;
+}
+.bar-violate {
+  background-color: #74469c;
+}
+/* education-section: end */
+/* skills-section: start */
+.skills {
+  background-image: url('../images/Texture.png');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.skills .round-icon {
+  margin: 19px 0px 0px 13px;
+}
+.skills .round-icon img {
+  width: 23px;
+  height: 17px;
+  margin: 11px 0px 0px 7px;
+}
+.skills p {
+  font-size: 22.5px;
+  margin: 0px 0px 0px 8px;
+  transform: translate(0px, -3px);
+  -webkit-transform: translate(0px, -3px);
+  -moz-transform: translate(0px, -3px);
+  -ms-transform: translate(0px, -3px);
+  -o-transform: translate(0px, -3px);
+}
+.skills .dots {
+  display: inline-block;
+  margin: 0px 0px 0px 280px;
+  transform: translate(0px, 3px);
+  -webkit-transform: translate(0px, 3px);
+  -moz-transform: translate(0px, 3px);
+  -ms-transform: translate(0px, 3px);
+  -o-transform: translate(0px, 3px);
+}
+.skills .dot {
+  width: 3px;
+  height: 3px;
+  background-color: #b2aeb1;
+  border-radius: 50%;
+  margin: 0px 0px 2.5px 0px;
+}
+.bar-graph-section {
+  width: 427px;
+  height: 130px;
+  position: relative;
+}
+.bar-graph {
+  position: absolute;
+  margin: 0px 0px 0px 8px;
+}
+.bar-graph img {
+  width: 206px;
+  height: 130px;
+}
+.bar-img2 {
+  transform: translateX(-4px);
+  -webkit-transform: translateX(-4px);
+  -moz-transform: translateX(-4px);
+  -ms-transform: translateX(-4px);
+  -o-transform: translateX(-4px);
+}
+.platforms {
+  position: absolute;
+  width: 400px;
+  height: 80px;
+  margin: 26px 0px 0px 23px;
+  display: flex;
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+}
+.gradient {
+  background-image: linear-gradient(0deg, #ea4070b4, #4e4d9fad);
+  background-size: cover;
+  margin: 0px 30px 0px 0px;
+}
+.bar-width {
+  min-width: 21px;
+}
+.java {
+  height: 85%;
+}
+.html {
+  height: 50%;
+}
+.css {
+  height: 95%;
+}
+.muse {
+  height: 60%;
+}
+.edge {
+  height: 80%;
+}
+.premiere {
+  height: 95%;
+}
+.joomla {
+  height: 60%;
+}
+.photoshop {
+  height: 70%;
+}
+.platforms div{
+  display: flex;
+}
+.sections-names {
+  display: flex;
+  margin: 115px 0px 0px 0px;
+  position: absolute;
+}
+.sections-names .font-resize {
+  font-family: "Iceland", cursive;
+  font-size: 11px;
+}
+.sections-names .java {
+  margin: 0px 0px 0px 21px;
+}
+.sections-names .html {
+  margin: 0px 0px 0px 28px;
+}
+.sections-names .css {
+  margin: 0px 0px 0px 31px;
+}
+.sections-names .muse {
+  margin: 0px 0px 0px 30px;
+}
+.sections-names .edge {
+  margin: 0px 0px 0px 26px;
+}
+.sections-names .premiere {
+  margin: 0px 0px 0px 16px;
+}
+.sections-names .joomla {
+  margin: 0px 0px 0px 10px;
+}
+.sections-names .photoshop {
+  margin: 0px 0px 0px 5px;
+}
+/* skills-section: end */
+/* right-section: end */

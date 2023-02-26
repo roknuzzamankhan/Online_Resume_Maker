@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+:root{
+    --bg_deep: #1b1e24;
+    --bg_mid: #24272e;
+    --bg_light: #30333c;
+    --pink: #ad4461;
+    --blue: #4e4da0;
+    --violate: #74469c;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg_deep);
+}
+.map{
+    background-image: url("../Images/PngItem_5110390.png");
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 0;
+    position: fixed;
+}
+
+.map_text p{
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    margin:190px 0 0 420px;
+    color: white;
+}
+
+#login_section{
+    width: 600px;
+    height: 1400px;
+    background-color: var(--bg_mid);
+    position: absolute;
+    margin: 0 650px;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid white; */
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+nav ul li{
+    width: 15%;
+    text-align: center;
+    border: 1px solid var(--bg_light);
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+nav ul li:hover{
+    background-color: #4e4da054;
+}
+
+nav svg{
+    width: 20px;
+    color: white;
+}
+
+nav p{
+    color: white;
+    font-size: 13px;
+}
+
+.current_section{
+    background-color: var(--blue);
+}
+
+.resume{
+    background-color: var(--pink);
+}
+
+#login_border{
+    width: 95%;
+    height: 1100px;
+    border: 5px solid var(--bg_light);
+    margin: 16% 2.5%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#login_border .main{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 60px 0 40px 0;
+}
+
+input,.profile_details{
+    border: 5px solid var(--bg_light);
+    border-radius: 6px;
+    background: none;
+    background-color: --bg_light;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: white;
+    width: 90%;
+    height: 60px;
+    font-size: 28px;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    padding: 0 10px;
+    margin: 0 0 40px 0;
+    outline: none;
+}
+
+button{
+    outline: none;
+    width: 230px;
+    height: 45px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, var(--pink), var(--violate));
+    color:  white;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 0 50px 0;
+}
+button:active{
+    background-image: linear-gradient(225deg, var(--pink), var(--violate));
+}
+a{
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+}
+#login_border p{
+    color: white;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+}
+#login_border #forgot{
+    display: inline-block;
+    color:rgb(158, 208, 255);
+    margin: 0 0 10px 0;
+}
+
+#login_border #new_account{
+    color: rgb(123, 255, 111);
+}
+
+.profile_details{
+    max-height: 300px;
+    min-height: 300px;
+    max-width: 500px;
+    min-width: 500px;
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+input[type="file"]{
+    border: none;
+    font-size: 20px;
+    margin: 20px 0 0 120px;
+}
+
+label[for="profile_picture"]{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.logout svg{
+    width: 50px;
+    color: white;
+    margin: 20px 0 0 20px;
+}
+
